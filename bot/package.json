@@ -1,0 +1,16 @@
+{
+  "name": "max-teamlead-bot",
+  "version": "1.0.0",
+  "description": "AI-Тимлид Макс для мессенджера МАКС - Команда Галактические боты",
+  "type": "module",
+  "main": "bot.mjs",
+  "scripts": {
+    "start": "node bot.mjs",
+    "dev": "node --watch bot.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "@maxhub/max-bot-api": "^1.0.2",
+    "dotenv": "^17.2.3"
+  }
+}

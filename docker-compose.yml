@@ -1,0 +1,50 @@
+services:
+  # 1. Веб-приложение (Mini App) на React 19 + Express + Google Gemini AI
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: max-teamlead-webapp
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - BOT_TOKEN=${BOT_TOKEN:-}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - WEBAPP_URL=${WEBAPP_URL:-https://ais-dev-uh6zjs2xamoeuueivmctfd-89586925952.europe-west1.run.app}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # 2. Чат-бот для мессенджера (МАКС dev.max.ru и Telegram @BotFather)
+  max-bot:
+    build:
+      context: ./bot
+      dockerfile: Dockerfile
+    container_name: max-teamlead-bot
+    restart: unless-stopped
+    depends_on:
+      - webapp
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - NODE_ENV=production
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - BOT_TOKEN=${BOT_TOKEN:-}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - WEBAPP_URL=${WEBAPP_URL:-https://ais-dev-uh6zjs2xamoeuueivmctfd-89586925952.europe-west1.run.app}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

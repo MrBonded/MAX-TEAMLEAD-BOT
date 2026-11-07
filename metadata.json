@@ -1,0 +1,6 @@
+{
+  "name": "AI-Тимлид «Макс» для IT-лаборатории",
+  "description": "Интеллектуальный чат-бот и Mini App для мессенджера МАКС: круглосуточный Code Review, Сократовский диалог и проверка IoT-схем по фото.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
