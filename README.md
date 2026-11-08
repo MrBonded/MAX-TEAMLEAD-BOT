@@ -16,6 +16,20 @@
   3. **Компьютерное зрение и аудит электросхем (IoT):** Анализ фотографий и схем монтажа на беспаечных макетных платах (Breadboard) для микроконтроллеров Arduino, ESP32, STM32 и Raspberry Pi Pico. Предотвращение деградации датчиков и риска коротких замыканий (контроль 5V vs 3.3V, общая шина GND, токоограничивающие резисторы).
   4. **Интерактивный симулятор Git:** Практический тренажер работы с системой контроля версий (git init, commit, branch, merge, push).
   5. **Дневник компетенций и геймификация:** Прозрачный учет решенных задач, начисление очков опыта (XP) и рост инженерного уровня.
+  <img width="1827" height="899" alt="Снимок экрана 2026-11-08 121530" src="https://github.com/user-attachments/assets/73a3713a-0e71-43ca-9baa-e54cade3f534" />
+<img width="1824" height="899" alt="Снимок экрана 2026-11-08 121513" src="https://github.com/user-attachments/assets/594b5588-8f4c-4017-a920-3ee66f7e38da" />
+<img width="1835" height="904" alt="Снимок экрана 2026-11-08 121449" src="https://github.com/user-attachments/assets/28e10126-a642-49c1-b2ec-7d6e1fdad523" />
+<img width="1834" height="904" alt="Снимок экрана 2026-11-08 121430" src="https://github.com/user-attachments/assets/2be7a9e2-4efd-455a-8a51-54576135535b" />
+<img width="1839" height="906" alt="Снимок экрана 2026-11-08 121306" src="https://github.com/user-attachments/assets/7252d268-d375-45e4-b0c4-7106c869db09" />
+<img width="1197" height="796" alt="Снимок экрана 2026-11-08 120853" src="https://github.com/user-attachments/assets/8cf0c419-0ef3-4554-9eda-e757256e1dcf" />
+<img width="1161" height="716" alt="Снимок экрана 2026-11-08 120725" src="https://github.com/user-attachments/assets/47bb103e-ca93-473b-a185-e8221389ed8a" />
+
+
+<img width="886" height="1920" alt="a57a786a-b52c-4728-8de9-1924fbcd9e73" src="https://github.com/user-attachments/assets/37a6fcf1-94bb-4d28-a0af-5686c0f5ff6a" />
+<img width="886" height="1920" alt="266f639e-fdc3-40d5-b707-c56dda83e289" src="https://github.com/user-attachments/assets/b3c3cadc-16ab-40ba-bfb6-c5d0650eb763" />
+<img width="886" height="1920" alt="04849f06-464b-4d71-a016-cb0b9c5b2069" src="https://github.com/user-attachments/assets/4c322046-87ea-4950-8467-797d1862bb21" />
+<img width="886" height="1920" alt="1faaaa1c-150e-45cd-878c-cc54e6551027" src="https://github.com/user-attachments/assets/58f840e5-a084-4d5e-9b12-29e880e1ea9c" />
+
 
 ---
 
